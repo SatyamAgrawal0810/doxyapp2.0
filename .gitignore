@@ -1,0 +1,8 @@
+.dart_tool/
+build/
+*.hprof
+*.log
+*.tmp
+android/.gradle/
+android/app/build/
+ios/Pods/

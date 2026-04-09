@@ -1,0 +1,51 @@
+name: doxy_app
+description: Doxy Flutter App starter
+publish_to: "none"
+version: 2.0.0+4
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.3.0
+  firebase_messaging: ^15.2.0
+  flutter_local_notifications: ^17.1.2
+  firebase_analytics: ^11.6.0
+  timezone: ^0.9.2
+  table_calendar: ^3.0.6
+  audioplayers: ^5.0.0
+  intl: ^0.18.1
+  flutter_slidable: ^3.1.0
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.2
+  http: ^1.2.0
+  flutter_secure_storage: ^9.0.0
+  path_provider: ^2.1.1
+  google_sign_in: ^6.1.0
+  permission_handler: ^12.0.1
+  url_launcher: ^6.2.5
+  app_links: ^3.4.1
+  flutter_tts: ^3.8.3
+  shared_preferences: ^2.2.2
+  web_socket_channel: ^2.4.0
+  connectivity_plus: ^4.0.0
+  speech_to_text: ^7.0.0
+  health: ^12.0.0
+  fl_chart: ^0.68.0
+  googleapis: ^13.2.0 # Google Fit REST API
+  pedometer: ^4.0.2
+  hive_flutter: ^1.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/icons/google.png
